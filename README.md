@@ -2,6 +2,8 @@
 
 A Machine Learning-based web application that provides intelligent movie suggestions using content-based filtering. The application uses a trained recommendation model built in a Jupyter Notebook and provides an interactive dashboard using Streamlit.
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://subodh-movie-recommender-system.streamlit.app)
+
 ## 📌 Project Overview
 This project recommends similar movies based on user selection. It calculates the feature similarities (like genres, keywords, cast, and crew vectors) using text vectorization and cosine similarity. The repository contains the data analysis/modeling pipeline inside a Jupyter Notebook and exposes the user interface through a lightweight Streamlit app.
 
