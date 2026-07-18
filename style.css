@@ -1,0 +1,67 @@
+.stApp {
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%) !important;
+    color: #0f172a;
+    font-family: 'Inter', -apple-system, sans-serif;
+}
+
+.movie-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 13px;
+    min-height: 40px;
+    margin-bottom: 8px;
+    color: #212529;
+}
+
+img {
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+img:hover { transform: scale(1.05); }
+
+div.stButton > button:first-child {
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 24px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+div.stButton > button:first-child:hover { background-color: #0056b3; }
+
+/* Combined Select Box styling */
+div[data-baseweb="select"] {
+    border: 1px solid #000000;
+    border-radius: 8px;
+    background-color: #fff5f6;
+    min-height: 35px !important;
+    display: flex !important;
+    align-items: center !important;
+}
+div[data-baseweb="select"]:hover,
+div[data-baseweb="select"]:focus-within {
+    border-color: #e03131;
+    box-shadow: 0 0 0 1px #e03131;
+}
+div[data-baseweb="select"] div { font-size: 18px !important; }
+
+/* Header adjustments */
+header, [data-testid="stHeader"], .stApp > header {
+    background-color: #f0f4f8;
+    background: #f0f4f8;
+}
+
+/* Hide deploy/menu UI elements */
+.stAppDeployButton, .stDeployButton, #stDecoration {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+h1 { font-size: 51px !important; }
+
+[data-testid="stWidgetLabel"] p {
+    font-size: 1.2rem !important;
+    font-weight: 500 !important;
+}
